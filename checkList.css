@@ -46,10 +46,20 @@
     transform: translateY(-50%);
 }
 
+.bottomLeft {
+    margin: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    text-align: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 html, body {
     height: 100%;
     width: 100%;
-    background-image: url("https://cdn.discordapp.com/attachments/774505638113968138/774760022093332510/Cutie_Hack-3.png");
+    background-image: url("https://cdn.discordapp.com/attachments/774505638113968138/774808563738345482/Cover_Page-4.png");
     background-color: rgba(253, 186, 60, 0.932);
 }
 
@@ -75,10 +85,20 @@ html, body {
 .button1:hover {
     background-color: rgb(89, 89, 255);
     color: white;
+}
+
+.button2 {
+    background-color: lightblue; 
+    color: black; 
+    border: 2px solid black;
+}
+
+.button2:hover {
+    background-color: rgb(89, 89, 255);
+    color: white;
   }
 
 ul li.checked {
-  background: #888;
-  color: #fff;
+  color: black;
   text-decoration: line-through;
 }
