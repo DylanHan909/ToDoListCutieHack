@@ -1,5 +1,5 @@
 # ToDoListCutieHack
-Project Link: https://dylanhan909.github.io/ToDoListCutieHack/index.html
+Project Link:  https://dylanhan909.github.io/CutieList/
 
 ## Inspiration
 In the trying times of 2020, one may feel overwhelmed with a sense of dread following the lack of activities to pass the time. So the solution that came to our minds was a to-do list. However, unlike traditional lists, activities are pre-filled, lessening the load and stress on the the mind of the user. This list of pre-selected tasks are carefully curated to enhance their stay-home experience and be more productive, social, and overall more fulfilled than usual. Why lists? 
