@@ -1,1 +1,25 @@
 # ToDoListCutieHack
+About Us:
+Wake up
+Drink water
+Win Cutie Hack
+
+Why Lists?
+
+The “Zeigarnik Effect”:
+Leads to productivity
+Psychological phenomenon describing the tendency of individuals to remember incomplete tasks more than completed tasks, enabling memory retention
+Tasks will be on your mind, making it more likely that you complete them
+
+Anxiety Reducing
+Unorganized tasks can feel overwhelming
+Lists provide concrete structure, something that is comforting to us
+Act of creating a list is one of commitment, increasing the likelihood of that the tasks being completed
+
+Satisfaction
+As one crosses things off their list, the satisfaction of completing that task only further motivates them 
+This reinforcement creates a positive psychological process
+
+As quarantine feels like it ceases to end, and the days all seem to blend in together, a simple list composed of healthy habits can be beneficial for one’s health. Either way, eating a cutie can never be a bad thing! 
+
+What I learned: Through this hackathon, I learned how to put art into HTML. In addition, academic wise, through research in this project, I learned the psychology behind list making and how it is beneficial to one's health.
