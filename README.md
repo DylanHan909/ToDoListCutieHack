@@ -2,10 +2,10 @@
 About Us:
 Why Lists?
 
-The “Zeigarnik Effect”:
+Reason 1: The “Zeigarnik Effect”:
 Leads to productivity
-Psychological phenomenon describing the tendency of individuals to remember incomplete tasks more than completed tasks, enabling memory retention
-Tasks will be on your mind, making it more likely that you complete them
+  Psychological phenomenon describing the tendency of individuals to remember incomplete tasks more than completed tasks, enabling memory retention
+  Tasks will be on your mind, making it more likely that you complete them
 
 Anxiety Reducing
 Unorganized tasks can feel overwhelming
