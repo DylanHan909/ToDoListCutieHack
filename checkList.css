@@ -1,8 +1,8 @@
 .center {
     margin: 0;
     position: absolute;
-    top: 40%;
-    left: 42%;
+    top: 20%;
+    left: 10%;
     text-align: center;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -11,8 +11,8 @@
 .centerLeft {
     margin: 0;
     position: absolute;
-    top: 55%;
-    left: 37%;
+    top: 50%;
+    left: 3%;
     align-self: left;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -41,6 +41,16 @@
     position: absolute;
     bottom: 2%;
     left: 40%;
+    text-align: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.bottomLeftButton {
+    margin: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 8%;
     text-align: center;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
