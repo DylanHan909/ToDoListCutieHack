@@ -22,4 +22,6 @@ This reinforcement creates a positive psychological process
 
 As quarantine feels like it ceases to end, and the days all seem to blend in together, a simple list composed of healthy habits can be beneficial for one’s health. Either way, eating a cutie can never be a bad thing! 
 
-What I learned: Through this hackathon, I learned how to put art into HTML. In addition, academic wise, through research in this project, I learned the psychology behind list making and how it is beneficial to one's health.
+Dylan: This hackathon taught me how to use HTML, CSS, and Javascript to make a cool little website. This was a very valuable experience to have, as it taught me and the other members of the team to both learn how to use effective collaboration and have fun with coding.
+
+Kim: Through this hackathon, I learned how to put art into HTML. In addition, academic wise, through research in this project, I learned the psychology behind list making and how it is beneficial to one's health.
