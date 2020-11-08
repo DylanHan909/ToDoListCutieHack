@@ -2,34 +2,58 @@
     margin: 0;
     position: absolute;
     top: 40%;
-    left: 46%;
+    left: 42%;
     text-align: center;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
+}
 
+.centerLeft {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    align-self: left;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centerBottom {
+    margin: 0;
+    position: relative;
+    bottom: 0%;
+    text-align: center;
+}
 
 .titlepage {
    font-family: "Comic Sans MS";
 }
-  .bottom {
-      margin: 0;
-      position: absolute;
-      bottom: 10%;
-      left: 40%;
-      text-align: center;
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-  }
 
-  html, body {
-      height: 100%;
-      width: 100%;
-      background-image: url("https://cdn.discordapp.com/attachments/774505638113968138/774716962789392434/Cutie_Hack.png");
-      background-color: rgba(253, 186, 60, 0.932);
-  }
+.taskOptions {
+    font-family: "comics";
+    font-size: large;
+}
 
-  .button {
+.bottom {
+    margin: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 40%;
+    text-align: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn.discordapp.com/attachments/774505638113968138/774760022093332510/Cutie_Hack-3.png");
+    background-color: rgba(253, 186, 60, 0.932);
+}
+
+.button {
     border: none;
     color: white;
     padding: 16px 32px;
@@ -40,15 +64,15 @@
     margin: 2px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
-  
-  .button1 {
+}
+
+.button1 {
     background-color: lightblue; 
     color: black; 
     border: 2px solid black;
-  }
-  
-  .button1:hover {
+}
+
+.button1:hover {
     background-color: rgb(89, 89, 255);
     color: white;
   }
