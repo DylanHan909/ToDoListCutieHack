@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html>
+    <script src="checkList.js"></script>
     <link rel="stylesheet" href="checkList.css">
-    
-    <div class= "center">
-        <div id="titleDIV" class="titlepage">
-            <h1>Cutie List!</h1>
+
+
+        <div class= "center">
+            <div id="titleDIV" class="titlepage">
+                <h1>Cutie List!</h1>
+            </div>
         </div>
-    </div>
-    <br><br><br>
-    <div class="centerLeft">
-        <br>
-        <ul id="myUL" class= "taskOptions">
-            <li>Eat a cutie.</li>
-            <li id="demo"></li>
-            <li id="demo1"</li>
-            <li id="demo2"</li>
-        </ul>
-    </div>
-    <button onclick="shuffle()" class="button button1">Shuffle</button>
-  
-    <script>
-        var tasks = [];
-        tasks.push("Do 30 minutes of exercise.");
-        tasks.push("Go out and buy groceries.");
-        tasks.push("Meet up and talk with some friends.");
-        tasks.push("Start/Finish up your homework.");
-        tasks.push("Study!");
-        tasks.push("Watch a TV show.");
-        tasks.push("Drink some orange juice.");
-        tasks.push("Drink water and stay hydrated.");
-        tasks.push("Feed your pets (if you have any) (or children)");
-        tasks.push("Work on some personal projects.");
-        tasks.push("Clean your room.");
-        tasks.push("Take out the trash.");
-        tasks.push("Meditate.");
-        tasks.push("Play some video games.");
-        tasks.push("Get some well earned rest.");
-        const shuffled = tasks.sort(() => 0.5 - Math.random());
-        document.getElementById("demo").innerHTML = tasks[0];
-        document.getElementById("demo1").innerHTML = tasks[1];
-        document.getElementById("demo2").innerHTML = tasks[2];
         
-        function shuffle() {
-            const shuffled = tasks.sort(() => 0.5 - Math.random());
-            document.getElementById("demo").innerHTML = tasks[0];
-            document.getElementById("demo1").innerHTML = tasks[1];
-            document.getElementById("demo2").innerHTML = tasks[2];
-        }
-    </script>
+        
+        <div class="centerLeft">
+            <ul id="myUL"><li>Eat a cutie.</li><li id="demo"></li><li id="demo1"</li><li id="demo2"</li></ul>
+        </div>
+        <div class="bottom">
+            <button onclick="shuffle()" class="button button1">Shuffle</button><br>
+            <body>Number of cuties you have is: <span id="number">0</span></body>
+        </div>
+
+
+
+<script>
+  var tasks = [];
+  tasks.push("Do 30 minutes of exercise.");
+  tasks.push("Go out and buy groceries.");
+  tasks.push("Meet up and talk with some friends.");
+  tasks.push("Start/Finish up your homework.");
+  tasks.push("Study!");
+  tasks.push("Watch a TV show.");
+  tasks.push("Drink some orange juice.");
+  tasks.push("Drink water and stay hydrated.");
+  tasks.push("Feed your pets (if you have any)");
+  tasks.push("Work on some personal projects.");
+  tasks.push("Clean your room.");
+  tasks.push("Take out the trash.");
+  tasks.push("Meditate.");
+  tasks.push("Play some video games.");
+  tasks.push("Get some well earned rest.");
+  const shuffled = tasks.sort(() => 0.5 - Math.random());
+  document.getElementById("demo").innerHTML = tasks[0];
+  document.getElementById("demo1").innerHTML = tasks[1];
+  document.getElementById("demo2").innerHTML = tasks[2];
+  function shuffle() {
+    const shuffled = tasks.sort(() => 0.5 - Math.random());
+    var elmnt = document.createElement("li");
+    var textnode = document.createTextNode("Eat a cutie.");
+    elmnt.appendChild(textnode);
+    var item = document.getElementById("myUL");
+    item.replaceChild(elmnt, item.childNodes[0]);
+    
+    var elmnt = document.createElement("li");
+    var textnode = document.createTextNode(tasks[0]);
+    elmnt.appendChild(textnode);
+    var item = document.getElementById("myUL");
+    item.replaceChild(elmnt, item.childNodes[1]);  
+    
+    var elmnt = document.createElement("li");
+    var textnode = document.createTextNode(tasks[1]);
+    elmnt.appendChild(textnode);
+    var item = document.getElementById("myUL");
+    item.replaceChild(elmnt, item.childNodes[2]);  
+    
+    var elmnt = document.createElement("li");
+    var textnode = document.createTextNode(tasks[2]);
+    elmnt.appendChild(textnode);
+    var item = document.getElementById("myUL");
+    item.replaceChild(elmnt, item.childNodes[3]);
+  }
+</script>
 </html>

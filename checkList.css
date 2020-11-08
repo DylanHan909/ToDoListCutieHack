@@ -2,7 +2,7 @@
     margin: 0;
     position: absolute;
     top: 40%;
-    left: 46%;
+    left: 42%;
     text-align: center;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -10,7 +10,21 @@
 
 .centerLeft {
     margin: 0;
-    align-self: center;
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    align-self: left;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centerBottom {
+    margin: 0;
+    position: relative;
+    bottom: 0%;
+    text-align: center;
 }
 
 .titlepage {
@@ -61,4 +75,10 @@ html, body {
 .button1:hover {
     background-color: rgb(89, 89, 255);
     color: white;
+  }
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
 }
