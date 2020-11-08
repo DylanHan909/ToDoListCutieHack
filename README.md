@@ -2,8 +2,10 @@
 About Us:
 
 Wake up
- Drink water
- Win Cutie Hack
+ 
+Drink water
+
+Win Cutie Hack
 
 Why Lists?
 
