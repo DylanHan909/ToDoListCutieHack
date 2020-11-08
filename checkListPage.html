@@ -75,6 +75,19 @@
     if (ev.target.tagName === 'LI') {
         ev.target.classList.toggle('checked');                                  
         document.getElementById("number").innerHTML = ++points;
+        if(points == 4) {
+            document.body.style.backgroundImage = 'url(https://media.discordapp.net/attachments/774505638113968138/774806215326695424/Window_Stage_2.png?width=1178&height=663)';
+         }
+        if (points == 8){
+            document.body.style.backgroundImage = 'url(https://media.discordapp.net/attachments/774505638113968138/774806231776493618/Window_Stage_3.png?width=1178&height=663)';
+        }
+        if(points == 12) {
+            document.body.style.backgroundImage = 'url(https://media.discordapp.net/attachments/774505638113968138/774806252386910248/Window_Stage_4.png?width=1178&height=663)';
+        }
+        if (points == 16){
+            document.body.style.backgroundImage = 'url(https://media.discordapp.net/attachments/774505638113968138/774806268379791400/Window_Stage_5-2.png?width=1178&height=663)';
+        }
+
     }
     }, false);
 
